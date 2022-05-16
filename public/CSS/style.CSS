@@ -150,13 +150,16 @@ article{
     }
     .valor{
         width: 30%;
-        font-size: 50px
+        font-size: 40px
     }
     .descuento{
         width: 70%;
-        font-size: 50px;
+        font-size: 40px;
         color: green;
         margin: 30px;
+    }
+    article{
+        width: 100%;
     }
 
 }
@@ -206,6 +209,24 @@ article{
         display: flex;
         flex-wrap: wrap;
     }
+    .valor{
+        width: 30%;
+        margin: 5px;
+        font-size: 30px
+        
+    }
+    .descuento{
+        width: 70%;
+        font-size: 30px;
+        color: green;
+        margin: 30px;
+    }
+    .descripcion{
+        margin: 5px;
+        font-size: 20px;
+    }
+
+
 }
 @media (min-width: 1046px){
     article{
@@ -252,5 +273,21 @@ article{
     .seccion{
         display: flex;
         flex-direction: row;
+    }
+    .valor{
+        width: 30%;
+        margin: 5px;
+        font-size: 30px
+        
+    }
+    .descuento{
+        width: 70%;
+        font-size: 30px;
+        color: green;
+        margin: 30px;
+    }
+    .descripcion{
+        margin: 5px;
+        font-size: 20px;
     }
 }
