@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="/CSS/register.CSS">
+        <link rel="stylesheet" href="/CSS/normalize.CSS">
+        <script src="https://kit.fontawesome.com/d84fe97ca7.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+        <title>MERCADO LIBRE</title>
+        <link rel="icon" href="/images/mercado.icon">
+    </head>
+    <body>
+        <form action="" method="post">
+            <input class="entrada" type="text" name="nombre" placeholder="Nombre y Apellido"><br>
+            <input class="entrada" type="text" name="nombreUs" placeholder="Nombre de usuario"><br>
+            <b class="texto_inf">Fecha de nacimiento</b>
+            <input class="entrada2"type="date" name="fecha"><br>
+            <input class="entrada"type="text" name="domicilio" placeholder="Domicilio"><br>
+            <b class="texto_inf">Perfil del usuario</b><br>
+            <label class="texto_sub">comprar</label>
+            <input class="entrada3" type="radio" name="tipo" value="comprar">
+            <label class="texto_sub">Vender</label>
+            <input class="entrada3" type="radio" name="tipo" value="Vender"><br>
+            <b class="texto_inf">Categorias de interés</b><br>
+            <label class="texto_sub">Electro</label>
+            <input class="entrada3" type="checkbox" name="electro" value="electro"><br>
+            <label class="texto_sub">Moda</label>
+            <input class="entrada3" type="checkbox" name="moda" value="moda"><br>
+            <label class="texto_sub">Hogar</label>
+            <input class="entrada3" type="checkbox" name="hogar" value="hogar"><br>
+            <label class="texto_sub">Jugueteria</label>
+            <input class="entrada3" type="checkbox" name="jugueteria" value="jugueteria"><br>
+            <label class="texto_sub">Vida Sana</label>
+            <input class="entrada3" type="checkbox" name="vida_sana" value="vida_sana"><br>
+            <input class="entrada" type="file" name="foto" id="foto">
+            <input class="entrada" type="password" name="contraseña" placeholder="Nueva contraseña">
+            <input class="entrada" type="password" name="contraseña" placeholder="Confirmar contraseña"><br>
+            <a href="/"><input type="button" value="iniciar" class="entrada4"></a><br>
+            <button type="reset">borrar</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    width: 100vw;
+    text-align: center;
+}
+.entrada{
+    margin: 30px;
+    width: 90%;
+    height: 70px;
+    font-size: 30px;
+    border-color: #ebebeb;
+}
+.entrada2{
+    margin: 30px;
+    margin-top: 60px;
+    width: 90%;
+    height: 70px;
+    font-size: 30px;
+    border-color: #ebebeb;
+}
+.texto_inf{
+    margin: 30px;
+    height: 70px;
+    font-size: 40px;
+}
+.texto_sub{
+    font-size: 30px;
+    margin: 10px;
+}
+.entrada3{
+    margin-top: 35px;
+    width: 10%;
+    height: 40px;
+    font-size: 30px;
+    border-color: #ebebeb;
+    margin-bottom: 35px;
+}
+button{
+    margin-top: 35px;
+    width: 50%;
+    height: 90px;
+}
+.entrada4{
+    width: 50%;
+    height: 50px;
+}
