@@ -27,10 +27,15 @@ main{
     width: 60%;
     height: 70px;
     font-size: 30px;
-    color: #fff;
+    color: #000;
     border-color: #000;
-    background-color: #1164f4
+    background-color: #fff;
+    transition:all 450ms;
     
+}
+.entrada2:hover{
+    color: #fff;
+    background-color: #1164f4;
 }
 li{
     list-style-type: none;

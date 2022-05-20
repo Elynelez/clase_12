@@ -37,6 +37,10 @@ li{
     position: absolute;
     right: 20px;
     top: -25px;
+    transition: all 450ms;
+}
+main section article:hover .fa-truck{
+    transform: rotate(-90deg);
 }
 .fa-bars{
     background-color: #03264C;
@@ -61,6 +65,7 @@ footer{
     color: #1164f4;
     padding: 0;
     margin-bottom: 5px;
+    transition: all 450ms;
 }
 .imagen{
     width: 100%;
@@ -76,6 +81,10 @@ footer{
 article{
     margin-bottom: 10px;
     width: 90%;
+    transition: all 450ms;
+}
+article:hover{
+    box-shadow: 0px 0px 20px rgb(100, 100, 100);
 }
 .seccion{
     background-color: #ebebeb;
@@ -89,6 +98,11 @@ article{
 .descripcion{
     font-size: 16px; 
     color: #666;
+    display: none;
+    
+}
+main section article:hover .descripcion{
+    display: block;
 }
 .precio{
     width:100%;
@@ -281,5 +295,14 @@ article{
     .descripcion{
         margin: 5px;
         font-size: 20px;
+    }
+    .entre-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    .icono:hover{
+        color: aquamarine;
     }
 }
