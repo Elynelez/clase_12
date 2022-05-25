@@ -124,6 +124,21 @@ main section article:hover .descripcion{
     margin-bottom: 90px;
 }
 @media (min-width: 361px) and (max-width: 768px){
+    .fa-truck{
+        display: block;
+        color: #39b54a;
+        border-radius: 50%;
+        border: 1px solid #39b54a;;
+        font-size: 50px;
+        padding: 5px;
+        width: 80px;
+        height: 80px;
+        background-color: #FFF;
+        position: absolute;
+        right: 20px;
+        top: -25px;
+        transition: all 450ms;
+    }
     nav{
         border-radius: 0%;
         font-size: 0em;
@@ -166,6 +181,9 @@ main section article:hover .descripcion{
     }
     article{
         width: 100%;
+    }
+    .precio{
+        margin: 20px;
     }
 
 }
@@ -214,6 +232,7 @@ main section article:hover .descripcion{
     .seccion{
         display: flex;
         flex-wrap: wrap;
+        padding-left: 90px;
     }
     .valor{
         width: 30%;
@@ -279,6 +298,7 @@ main section article:hover .descripcion{
     .seccion{
         display: flex;
         flex-direction: row;
+        padding-left: 100px;
     }
     .valor{
         width: 30%;
