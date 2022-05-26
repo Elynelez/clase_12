@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" href="/CSS/register.css">
-        <link rel="stylesheet" href="/CSS/normalize.css">
+        <link rel="stylesheet" href="/CSS/normalize.CSS">
         <script src="https://kit.fontawesome.com/d84fe97ca7.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,16 +14,16 @@
     </head>
     <body>
         <form action="" method="post">
-            <input class="entrada" type="text" name="nombre" placeholder="Nombre y Apellido"><br>
-            <input class="entrada" type="text" name="nombreUs" placeholder="Nombre de usuario"><br>
+            <input class="entrada" type="text" name="nombre" placeholder="Nombre y Apellido" required><br>
+            <input class="entrada" type="text" name="nombreUs" placeholder="Nombre de usuario" required><br>
             <b class="texto_inf">Fecha de nacimiento</b>
-            <input class="entrada2"type="date" name="fecha"><br>
-            <input class="entrada"type="text" name="domicilio" placeholder="Domicilio"><br>
+            <input class="entrada2"type="date" name="fecha" required><br>
+            <input class="entrada"type="text" name="domicilio" placeholder="Domicilio" required><br>
             <b class="texto_inf">Perfil del usuario</b><br>
             <label class="texto_sub">comprar</label>
-            <input class="entrada3" type="radio" name="tipo" value="comprar">
+            <input class="entrada3" type="radio" name="tipo" value="comprar" required>
             <label class="texto_sub">Vender</label>
-            <input class="entrada3" type="radio" name="tipo" value="Vender"><br>
+            <input class="entrada3" type="radio" name="tipo" value="Vender" required><br>
             <b class="texto_inf">Categorias de interés</b><br>
             <label class="texto_sub">Electro</label>
             <input class="entrada3" type="checkbox" name="electro" value="electro"><br>
@@ -36,8 +36,8 @@
             <label class="texto_sub">Vida Sana</label>
             <input class="entrada3" type="checkbox" name="vida_sana" value="vida_sana"><br>
             <input class="entrada" type="file" name="foto" id="foto">
-            <input class="entrada" type="password" name="contraseña" placeholder="Nueva contraseña">
-            <input class="entrada" type="password" name="contraseña" placeholder="Confirmar contraseña"><br>
+            <input class="entrada" type="password" name="contraseña" placeholder="Nueva contraseña" required>
+            <input class="entrada" type="password" name="contraseña" placeholder="Confirmar contraseña" required><br>
             <a href="/"><input class="entrada2" type="button" value="iniciar" class="entrada4"></a><br>
             <button class="entrada2" type="reset">borrar</button>
         </form>
